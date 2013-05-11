@@ -1,0 +1,11 @@
+C:\Users\douglas\Documents\GitHub\DClipWord\DClipWord\bin\Release\DClipWord.dll
+C:\Users\douglas\Documents\GitHub\DClipWord\DClipWord\bin\Release\DClipWord.pdb
+C:\Users\douglas\Documents\GitHub\DClipWord\DClipWord\bin\Release\DClipWord.dll.manifest
+C:\Users\douglas\Documents\GitHub\DClipWord\DClipWord\bin\Release\DClipWord.vsto
+C:\Users\douglas\Documents\GitHub\DClipWord\DClipWord\bin\Release\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\douglas\Documents\GitHub\DClipWord\DClipWord\bin\Release\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
+C:\Users\douglas\Documents\GitHub\DClipWord\DClipWord\obj\Release\DClipWord.csprojResolveAssemblyReference.cache
+C:\Users\douglas\Documents\GitHub\DClipWord\DClipWord\obj\Release\DClipWord.Properties.Resources.resources
+C:\Users\douglas\Documents\GitHub\DClipWord\DClipWord\obj\Release\DClipWord.csproj.GenerateResource.Cache
+C:\Users\douglas\Documents\GitHub\DClipWord\DClipWord\obj\Release\DClipWord.dll
+C:\Users\douglas\Documents\GitHub\DClipWord\DClipWord\obj\Release\DClipWord.pdb
