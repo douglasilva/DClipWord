@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="DClipWord">
+</Property><Property Name="Solution File" Value="C:\Users\douglas\Documents\GitHub\DClipWord\DClipWord\DClipWord.sln">
+</Property><Property Name="Date" Value="Saturday, May 11, 2013">
+</Property><Property Name="Time" Value="13:41:37">
+</Property></Properties><Event ErrorLevel="0" Project="DClipWord" Source="DClipWord.csproj" Description="Project file successfully backed up as C:\Users\douglas\Documents\GitHub\DClipWord\DClipWord\Backup\DClipWord.csproj">
+</Event><Event ErrorLevel="0" Project="DClipWord" Source="ClipboardManager.cs" Description="File successfully backed up as C:\Users\douglas\Documents\GitHub\DClipWord\DClipWord\Backup\ClipboardManager.cs">
+</Event><Event ErrorLevel="0" Project="DClipWord" Source="ClipboardManager.Designer.cs" Description="File successfully backed up as C:\Users\douglas\Documents\GitHub\DClipWord\DClipWord\Backup\ClipboardManager.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DClipWord" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\douglas\Documents\GitHub\DClipWord\DClipWord\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="DClipWord" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\douglas\Documents\GitHub\DClipWord\DClipWord\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DClipWord" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\douglas\Documents\GitHub\DClipWord\DClipWord\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DClipWord" Source="ThisAddIn.cs" Description="File successfully backed up as C:\Users\douglas\Documents\GitHub\DClipWord\DClipWord\Backup\ThisAddIn.cs">
+</Event><Event ErrorLevel="0" Project="DClipWord" Source="ThisAddIn.Designer.cs" Description="File successfully backed up as C:\Users\douglas\Documents\GitHub\DClipWord\DClipWord\Backup\ThisAddIn.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DClipWord" Source="DClipWord_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\douglas\Documents\GitHub\DClipWord\DClipWord\Backup\DClipWord_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="DClipWord" Source="Properties\Settings.settings" Description="File successfully backed up as C:\Users\douglas\Documents\GitHub\DClipWord\DClipWord\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="DClipWord" Source="ThisAddIn.Designer.xml" Description="File successfully backed up as C:\Users\douglas\Documents\GitHub\DClipWord\DClipWord\Backup\ThisAddIn.Designer.xml">
+</Event><Event ErrorLevel="0" Project="DClipWord" Source="Resources\camera_click.wav" Description="File successfully backed up as C:\Users\douglas\Documents\GitHub\DClipWord\DClipWord\Backup\Resources\camera_click.wav">
+</Event><Event ErrorLevel="0" Project="DClipWord" Source="Properties\Resources.resx" Description="File successfully backed up as C:\Users\douglas\Documents\GitHub\DClipWord\DClipWord\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="DClipWord" Source="DClipWord.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="DClipWord" Source="DClipWord.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DClipWord" Source="DClipWord.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
