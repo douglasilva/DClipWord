@@ -8,3 +8,8 @@ C:\Users\douglas\Documents\GitHub\DClipWord\DClipWord\obj\Debug\DClipWord.Proper
 C:\Users\douglas\Documents\GitHub\DClipWord\DClipWord\obj\Debug\DClipWord.csproj.GenerateResource.Cache
 C:\Users\douglas\Documents\GitHub\DClipWord\DClipWord\obj\Debug\DClipWord.dll
 C:\Users\douglas\Documents\GitHub\DClipWord\DClipWord\obj\Debug\DClipWord.pdb
+C:\Users\douglas\Documents\GitHub\DClipWord\Setup\DClipWord.dll
+C:\Users\douglas\Documents\GitHub\DClipWord\Setup\DClipWord.pdb
+C:\Users\douglas\Documents\GitHub\DClipWord\Setup\DClipWord.dll.manifest
+C:\Users\douglas\Documents\GitHub\DClipWord\Setup\DClipWord.vsto
+C:\Users\douglas\Documents\GitHub\DClipWord\DClipWord\obj\Debug\DClipWord.ConfirmForm.resources

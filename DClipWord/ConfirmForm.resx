@@ -117,23 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ApplicationName" xml:space="preserve">
-    <value>DClipWord</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="camera_click" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\camera_click.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ItemMenu" xml:space="preserve">
-    <value>&amp;Monitor de PrintScreen</value>
-  </data>
-  <data name="MessageDisabled" xml:space="preserve">
-    <value>Monitor de PrintScreen desativado!</value>
-  </data>
-  <data name="MessageEnabled" xml:space="preserve">
-    <value>Monitor de PrintScreen ativado!</value>
-  </data>
-  <data name="ConfirmMessage" xml:space="preserve">
-    <value>Sim</value>
-  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>

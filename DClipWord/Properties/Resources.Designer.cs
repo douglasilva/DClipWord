@@ -79,6 +79,15 @@ namespace DClipWord.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Sim.
+        /// </summary>
+        internal static string ConfirmMessage {
+            get {
+                return ResourceManager.GetString("ConfirmMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &amp;Monitor de PrintScreen.
         /// </summary>
         internal static string ItemMenu {

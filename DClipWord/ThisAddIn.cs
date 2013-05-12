@@ -28,7 +28,7 @@ namespace DClipWord
 
 			soundPlayer = new System.Media.SoundPlayer();
 			soundPlayer.Stream = Properties.Resources.camera_click;
-			
+
 			manager = new ClipboardManager();
 		}
 
@@ -66,12 +66,11 @@ namespace DClipWord
 			try
 			{
 				Office.CommandBar menubar = (Office.CommandBar)Application.CommandBars.ActiveMenuBar;
-				int controlCount = menubar.Controls.Count;
 
-				// Add the menu.
+				// Add the menu.				
 				menuCommand = (Office.CommandBarButton)menubar.Controls.Add(
 							Office.MsoControlType.msoControlButton, missing, missing, missing, true);
-				menuCommand.Style = MsoButtonStyle.msoButtonIconAndCaptionBelow;
+				menuCommand.Style = MsoButtonStyle.msoButtonIconAndWrapCaptionBelow;
 				menuCommand.Caption = Resources.ItemMenu;
 				menuCommand.Tag = "200";
 				menuCommand.FaceId = 65;
@@ -92,11 +91,11 @@ namespace DClipWord
 			{
 				Enabled = false;
 				manager.OnNewClipboard -= manager_OnNewClipboard;
-				manager.Stop();				
+				manager.Stop();
 
-				MessageBox.Show(Resources.MessageDisabled, 
+				MessageBox.Show(Resources.MessageDisabled,
 					Resources.ApplicationName,
-					MessageBoxButtons.OK, 
+					MessageBoxButtons.OK,
 					MessageBoxIcon.Information);
 			}
 			else
@@ -111,18 +110,27 @@ namespace DClipWord
 			}
 		}
 
+
 		void manager_OnNewClipboard(object sender, ClipboardArgs e)
 		{
-			Application.ActiveDocument.Content.Paragraphs.Add(Globals.ThisAddIn.Application.Selection.Range);
+			using (ConfirmForm confirmForm = new ConfirmForm())
+			{
+				confirmForm.TopMost = true;
+				confirmForm.ShowDialog();
 
-			Globals.ThisAddIn.Application.Selection.Paste();		
+				if (confirmForm.DialogResult != DialogResult.No)
+				{
+					Application.ActiveDocument.Content.Paragraphs.Add(Globals.ThisAddIn.Application.Selection.Range);
 
-			Application.ActiveDocument.Content.Paragraphs.Add(Globals.ThisAddIn.Application.Selection.Range);
+					Globals.ThisAddIn.Application.Selection.Paste();
 
-			Globals.ThisAddIn.Application.Selection.MoveDown(WdUnits.wdParagraph, 2, Type.Missing);
+					Application.ActiveDocument.Content.Paragraphs.Add(Globals.ThisAddIn.Application.Selection.Range);
 
-			soundPlayer.Play();
+					Globals.ThisAddIn.Application.Selection.MoveDown(WdUnits.wdParagraph, 2, Type.Missing);
 
+					soundPlayer.Play();
+				}
+			}
 		}
 
 		#region VSTO generated code
@@ -134,7 +142,7 @@ namespace DClipWord
 		private void InternalStartup()
 		{
 			this.Startup += new System.EventHandler(ThisAddIn_Startup);
-			this.Shutdown += new System.EventHandler(ThisAddIn_Shutdown);			
+			this.Shutdown += new System.EventHandler(ThisAddIn_Shutdown);
 		}
 
 		#endregion
