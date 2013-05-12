@@ -1,4 +1,4 @@
 DClipWord
 =========
 
-Add-in Word para registrar automaticamente todo imagem registrado na área de transferência.
+Add-in para Word que registra automaticamente toda imagem incluída na área de transferência.
