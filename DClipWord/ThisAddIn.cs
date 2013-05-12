@@ -111,7 +111,7 @@ namespace DClipWord
 		}
 
 
-		void manager_OnNewClipboard(object sender, ClipboardArgs e)
+		void manager_OnNewClipboard()
 		{
 			using (ConfirmForm confirmForm = new ConfirmForm())
 			{

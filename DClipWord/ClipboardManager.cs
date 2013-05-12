@@ -20,9 +20,8 @@ namespace DClipWord
 
 		private const int WM_DRAWCLIPBOARD = 0x0308;        // WM_DRAWCLIPBOARD message
 		private IntPtr _clipboardViewerNext;
-
-		public delegate void ClipboardHandler(object sender, ClipboardArgs e);
-		public event ClipboardHandler OnNewClipboard;
+				
+		public event Action OnNewClipboard;
 
 		public ClipboardManager()
 		{
@@ -47,26 +46,17 @@ namespace DClipWord
 			{
 				IDataObject iData = Clipboard.GetDataObject();      
 
-				if (iData.GetDataPresent(DataFormats.Bitmap))
+				if ((iData.GetDataPresent(DataFormats.Bitmap, false)) &&
+						(iData.GetDataPresent(DataFormats.Text, false) == false))
 				{
-					Bitmap image = (Bitmap)iData.GetData(DataFormats.Bitmap);
-					
-					if (OnNewClipboard != null)
+					var image = iData.GetData(DataFormats.Bitmap);
+										
+					if ((image != null) && (OnNewClipboard != null))
 					{						
-						OnNewClipboard(this, new ClipboardArgs(image));
+						OnNewClipboard();
 					}
 				}
 			}
 		}
-	}
-
-	public class ClipboardArgs
-	{
-		public ClipboardArgs(Bitmap image)
-		{
-			this.Image = image;
-		}
-
-		public Bitmap Image { get; set; }
-	}
+	}	
 }
